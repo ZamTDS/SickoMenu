@@ -1,81 +1,71 @@
 # 👺 SickoMenu v4.1.2
-A powerful utility for Among Us that aims to improve the game experience!
+A powerful utility for Among Us designed to enhance **private modded lobbies** with custom features.  
+**⚠️ Intended for educational and experimental use only.**
 
-Join our very own Discord server for support, bug reports, and sneak peeks!
-### Vanity Invite: https://discord.gg/sickos
-### Permanent invite: https://dsc.gg/sickos
+---
+
+## 🛑 Ethical Use Protocol
+**By using SickoMenu, you agree to:**
+1. **Use exclusively in private lobbies** with consenting players.
+2. **Never exploit features in public matches** or to harass others.
+3. **Respect Innersloth's Terms of Service** and the integrity of the game.
+4. **Immediately disable the mod** (`PAUSE BREAK` hotkey) if joining public lobbies accidentally.
+
+> 🚫 Misuse may result in account bans. **We do not condone cheating.**
+
+---
 
 ## ⚠️ Disclaimer
-This project is intended for Educational Use only. I do not condone this software being used to gain an advantage against other people. This project is aimed to make Innersloth's anticheat better. Use at your own risk. If you get banned from playing entirely or from a lobby, I (g0aty) am not responsible.
+This project is **strictly for educational purposes** to study game mechanics and anti-cheat systems. It is **not endorsed by Innersloth LLC**, and we strongly discourage use in public matches. By downloading, you accept full responsibility for any consequences.I (g0aty) am not responsible for any repercussions.
 
-This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.
+**Legal Notice:**  
+Portions of materials used are property of Innersloth LLC. © Innersloth LLC. This mod complies with Innersloth's [Modding Policy](https://www.innersloth.com/policies/) for non-malicious private use.
+
+
+---
 
 ## ⚙️ Features
-A huge collection of various utilities and cheats such as
-- Generate a brand new guest account every time the game is launched
-- Fake Roles
-- NoClip
-- Move in Vents
-- Zoom Out
-- Confuser
-- See Ghosts and Chat
-- Better AUM Chat (Type in regular chat: "/aum [insert message here]")
-- And much more! Check out the full list of features [here](https://github.com/g0aty/SickoMenu/blob/main/FEATURES.md)!
+Utilities:-
+- **A huge collection of features followed by**
+  - NoClip (`CTRL`)  
+  - Ghost Visibility  
+  - Confuser (May disrupt gameplay)  
+- **Cosmetic/UI Enhancements**:  
+  - Guest Account Generator  
+  - Zoom Out  
+  - Better AUM Chat (`/aum [message]`)  
+- **Full Feature List**: [FEATURES.md](https://github.com/g0aty/SickoMenu/blob/main/FEATURES.md)  
 
-## 📸 Screenshot
-<p align="center">
-   <img src="screenshot.png">
-</p>
+> 🔸 Features marked with **!** may impact game balance. Always obtain lobby consent.
 
-## 👌 Supported Versions
-- ✅ Steam (Supported)
-- ✅ Epic Games (Supported)
-- ✅ itch.io (Supported)
-- ❓ Cracked (works occasionally, I don't condone it)
-- ❌ Microsoft Store (Not Supported)
-- ❌ iOS/iPadOS/Android (Not Supported)
-- ❌ Switch/Xbox/Playstation (Not Supported)
+---
 
-## ⬇️ Download & Install
-### For Windows
-You can find the latest release [here](https://github.com/g0aty/SickoMenu/releases/latest).
-Either inject `SickoMenu.dll` with a reliable injector or put `version.dll` in your Among Us directory (the folder containing `Among Us.exe`).
+## ⬇️ Download & Install 
+### Pre-Installation Checklist:
+1. [ ] I will use this **only in private lobbies**.
+2. [ ] I understand public use risks account bans.
+3. [ ] I have read the [Ethical Use Protocol](#-ethical-use-protocol).
 
-### For Proton (Version Proxy Only)
-First you will need [protontricks](https://github.com/Matoking/protontricks), you can install it with your packager of choice.
+**[Download Latest Release](https://github.com/g0aty/SickoMenu/releases/latest)**  
+*For installation steps, refer to original [Windows/Proton/macOS guides](#-download--install).*
 
-1. Make sure you are running Among Us under Proton. 
-   On Steam you can check this by going to **Properties -> Compatibility**
-2. Put version.dll into your Among Us directory (the folder containing `Among Us.exe`).
-3. Run `protontricks --gui`
-4. Choose **Among Us**
-5. Click on **Select the default wineprefix** and then **OK**
-6. Click on **Run winecfg** and then **OK**
-7. In the configuration window, click on **Libraries**
-8. Enter `version` into the **New override for library** input field
-9. Click **Add** and then **Apply**
-10. SickoMenu should now work properly in the game
+---
 
-### For macOS (Version Proxy Only)
+## 🔒 Anti-Abuse Measures
+- **Panic Key**: Instantly disable all features with `PAUSE BREAK`.
+- **Lobby Detection**: (Planned) Future versions may include warnings in public lobbies.
+- **Transparency**: Open-source code allows community auditing.
 
-> [!NOTE]
-> This method uses CrossOver. If you have ANY other ways to use this with other software, refer to the contributing section!
+---
 
-1. Install a bottle of CrossOver, install Steam in it and install Among Us.
-2. Open the C drive inside of CrossOver (there should be a button). Quit CrossOver. A Finder window will open.
-3. Go to `Program Files (x86)/Steam/steamapps/common/Among Us/` and put the `version.dll` into it. Then reopen CrossOver.
-5. Go to the **Configure Wine** panel, go to **Libraries**, open the menu below **New Replacement for:** and search for `version`.
-6. Select it and click **Add**, then **Apply** and **OK**.
-7. Start Among Us and press **Command+⌦** to show SickoMenu.
+## 🤝 Community Guidelines
+Join our [Discord](https://discord.gg/sickos) to:
+- Share creative uses for private modded games.
+- Report bugs/exploits **responsibly**.
+- Sneak peeks
+-pre-releases.
+-support and showcase🌟
 
-## ⌨️ Default Hotkeys
-- Show Menu - DELETE
-- Show Radar - INSERT
-- Show Console - HOME
-- Show Replay - END
-- Repair Sabotage - PAGE DOWN (PgDn)
-- NoClip - CTRL
-- Panic / Disable SickoMenu - PAUSE BREAK (Break)
 
 ## ⚒️ Compile (Configurations)
 You can compile two different versions of the menu. Normal or Version Proxy. Steps to compile can be found [here](https://docs.google.com/document/d/1bdXyasr7suassff_or3ywPyItGkjhlTfbBJtvaJ6udQ/edit?usp=sharing).
